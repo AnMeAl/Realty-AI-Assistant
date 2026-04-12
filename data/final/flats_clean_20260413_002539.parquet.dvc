@@ -1,0 +1,5 @@
+outs:
+- md5: 484acd3a0030dc49b8484fabb92ac51e
+  size: 630616
+  hash: md5
+  path: flats_clean_20260413_002539.parquet

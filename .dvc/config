@@ -1,4 +1,11 @@
 [core]
-    remote = local_storage
+    remote = myremote
 ['remote "local_storage"']
     url = /Users/vladmelnikov/dvc_storage/project
+['remote "myremote"']
+    url = s3://realty-images
+    endpointurl = http://localhost:9000
+    access_key_id = minioadmin
+    secret_access_key = minioadmin
+    ssl_verify = false
+    region = us-east-1
