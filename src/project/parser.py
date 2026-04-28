@@ -1,12 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
-import pandas as pd
 import time
 import random
 
 flats = []
 
-def time_delay(min_seconds=120, max_seconds=180):
+def time_delay(min_seconds=3, max_seconds=5):
     delay = random.uniform(min_seconds, max_seconds)
     time.sleep(delay)
 

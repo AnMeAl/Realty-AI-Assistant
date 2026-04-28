@@ -30,4 +30,6 @@ htmlcov/
 # DVC
 .dvc/tmp/
 .dvc/cache/
-.dvc/tmp/
+.dvc/tmp/.env
+data/embeddings/
+data/multimodal_index/
